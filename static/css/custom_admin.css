@@ -1,0 +1,53 @@
+/* custom_admin.css */
+/* Estilos para el encabezado */
+#header {
+    background-color: #ff0000; /* Cambia el color de fondo del encabezado */
+    color: #df1313; /* Cambia el color del texto del encabezado */
+}
+
+/* Estilos para el título de la página */
+#site-name a {
+    color: #fff; /* Cambia el color del texto del título */
+}
+
+/* Estilos para el menú de navegación */
+#nav-global {
+    background-color: #343a40; /* Cambia el color de fondo del menú de navegación */
+}
+
+/* Estilos para los enlaces del menú */
+#nav-global a {
+    color: #fff; /* Cambia el color del texto de los enlaces del menú */
+}
+
+/* Estilos para el cuerpo */
+#content {
+    background-color: #f8f9fa; /* Cambia el color de fondo del cuerpo */
+    color: #333; /* Cambia el color del texto del cuerpo */
+}
+
+/* Estilos para la tabla de list_display */
+table#result_list {
+    background-color: #fff; /* Cambia el color de fondo de la tabla */
+    color: #333; /* Cambia el color del texto de la tabla */
+    border: 1px solid #ccc; /* Agrega un borde a la tabla */
+}
+
+/* Estilos para las filas de la tabla */
+table#result_list tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cambia el color de fondo de las filas pares */
+}
+
+/* Estilos para las celdas de la tabla */
+table#result_list td, table#result_list th {
+    border: 1px solid #ccc; /* Agrega un borde a las celdas */
+    padding: 8px; /* Agrega espacio interno a las celdas */
+}
+
+/* Estilos para los filtros */
+#changelist-filter {
+    background-color: #f8f9fa; /* Cambia el color de fondo del área de filtros */
+    border-bottom: 1px solid #ccc; /* Agrega un borde en la parte inferior del área de filtros */
+}
+
+/* Agrega más estilos personalizados según tus necesidades */

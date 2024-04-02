@@ -1,0 +1,16 @@
+.remove-from-cart-btn {
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff; /* Color de texto */
+    background-color: #780000; /* Cambiar color de fondo a rojo al pasar el mouse */
+    border: 2px solid #ffffff; /* Borde de 2px sólido negro */
+    outline: none; /* Sin contorno al enfocar */
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    padding: 5px 10px; /* Espaciado interno */
+}
+
+.remove-from-cart-btn:hover {
+    color: #fff; /* Cambiar color de texto a blanco al pasar el mouse */
+    background-color: #070707; /* Cambiar color de fondo a rojo al pasar el mouse */
+  
+}
